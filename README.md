@@ -165,5 +165,5 @@ This dashboard was developed using:
 ---
 
 - GitHub: *https://github.com/Andrew-Pasten*    
-- LinkedIn: *(https://www.linkedin.com/in/andrewpastencpp/)*
+- LinkedIn: *https://www.linkedin.com/in/andrewpastencpp/*
 - Portfolio: *https://andrew-pasten.github.io/Portfolio.io/index.html*  
