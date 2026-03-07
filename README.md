@@ -2,10 +2,12 @@
 
 An FP&A-style operations finance dashboard analyzing revenue growth, cost structure, and operating income drivers across simulated Disney Experiences business units.
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi)
-![DAX](https://img.shields.io/badge/Language-DAX-blue)
-![Data Modeling](https://img.shields.io/badge/Model-Star%20Schema-lightgrey)
-![Focus](https://img.shields.io/badge/Focus-FP%26A%20Analytics-green)
+![Tool](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi)
+![Language](https://img.shields.io/badge/Language-DAX-blue)
+![Finance](https://img.shields.io/badge/Finance-FP%26A%20Analysis-darkgreen)
+![Analytics](https://img.shields.io/badge/Analytics-Variance%20Analysis-purple)
+![Skill](https://img.shields.io/badge/Skill-KPI%20Dashboard-orange)
+![Data Model](https://img.shields.io/badge/Data%20Model-Star%20Schema-lightgrey)
 
 ---
 
