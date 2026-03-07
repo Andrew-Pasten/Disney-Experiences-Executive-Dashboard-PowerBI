@@ -11,7 +11,7 @@ An FP&A-style operations finance dashboard analyzing revenue growth, cost struct
 
 ![Executive Overview](screenshots/executive-overview.png)
 
-*Executive operations dashboard summarizing revenue performance, margin trends, labor efficiency, and guest economics across Disney Experiences business units.*
+*Executive operations dashboard summarizing revenue performance, margin trends, labor efficiency, and guest economics across Disney Experiences business units.* [Download the Power BI Dashboard](https://drive.google.com/file/d/1NWKPss0SH3UA7UJBL51y--UI3HXryy2c/view?usp=sharing) and explore it locally.
 
 ---
 
@@ -30,18 +30,6 @@ An FP&A-style operations finance dashboard analyzing revenue growth, cost struct
 - KPI dashboard design
 
 This project simulates how **Disney Experiences FP&A teams monitor operational performance** across theme parks, hotels, and retail operations using executive dashboards and driver-based financial analysis.
-
----
-
-# Download the Dashboard
-
-You can download the Power BI dashboard and explore it locally.
-
-**Download PBIX File**
-
-[Download the Power BI Dashboard](https://drive.google.com/file/d/1NWKPss0SH3UA7UJBL51y--UI3HXryy2c/view?usp=sharing)
-
-*Requires Power BI Desktop to open.*
 
 ---
 
