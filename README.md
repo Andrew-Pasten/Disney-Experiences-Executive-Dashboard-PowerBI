@@ -4,10 +4,9 @@ An FP&A-style operations finance dashboard analyzing revenue growth, cost struct
 
 ![Tool](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi)
 ![Language](https://img.shields.io/badge/Language-DAX-blue)
-![Finance](https://img.shields.io/badge/Finance-FP%26A%20Analysis-darkgreen)
-![Analytics](https://img.shields.io/badge/Analytics-Variance%20Analysis-purple)
+![Finance](https://img.shields.io/badge/Finance-Operations%20Finance-darkgreen)
+![Analysis](https://img.shields.io/badge/Analysis-Driver%20Analysis-purple)
 ![Skill](https://img.shields.io/badge/Skill-KPI%20Dashboard-orange)
-![Data Model](https://img.shields.io/badge/Data%20Model-Star%20Schema-lightgrey)
 
 ---
 
