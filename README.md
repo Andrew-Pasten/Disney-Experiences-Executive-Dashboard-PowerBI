@@ -4,9 +4,9 @@
 
 ## Background and Overview
 
-The Disney Experiences segment represents one of the most operationally complex and financially significant divisions of The Walt Disney Company, encompassing theme parks, resorts, and hospitality operations. Managing performance across these business units requires continuous monitoring of revenue generation, operating efficiency, and cost structure to understand the underlying drivers of financial performance.
+The Disney Experiences segment represents one of the most operationally complex and financially significant divisions of The Walt Disney Company, encompassing theme parks, resorts, and hospitality operations. Managing performance across business units requires continuous monitoring of revenue generation, operating efficiency, and cost structure to understand the underlying drivers of financial performance.
 
-This project simulates an **Operations Finance and Revenue Management reporting workflow**, replicating how Disney’s FP&A teams monitor business performance and identify operating income drivers across business units. Using a structured financial dataset and executive-style reporting approach, this dashboard enables real-time analysis of key operational and financial metrics, including:
+This project simulates an **Operations Finance and Revenue Management reporting workflow**, replicating how FP&A teams monitor business performance and identify operating income drivers across business units. Using a structured financial dataset and executive-style reporting approach, this dashboard enables real-time analysis of key operational and financial metrics, including:
 
 - Revenue and YoY revenue growth  
 - Operating margin and operating income changes  
@@ -15,6 +15,78 @@ This project simulates an **Operations Finance and Revenue Management reporting 
 - Business unit–level profitability variance  
 
 The goal of this project is to demonstrate how finance teams use data visualization, variance analysis, and driver decomposition to explain financial performance and support executive decision-making.
+
+---
+
+## Executive Summary
+
+Analysis of Disney Experiences performance reveals several important financial and operational trends:
+
+- Total segment revenue reached approximately **$24.7B**, with operating margin stabilizing at **26.6%**, indicating strong overall profitability despite cost pressures.  
+- Operating income increased by approximately **+$516.6M year-over-year**, driven primarily by revenue expansion of approximately **+$660M**, partially offset by labor cost increases of approximately **−$410M**.  
+- Labor costs represented approximately **26.0% of revenue**, highlighting labor efficiency as a critical driver of profitability across business units.  
+- Revenue per guest averaged approximately **$750.79**, while cost per guest averaged approximately **$550.73**, reinforcing the importance of operational efficiency and pricing optimization.  
+- Business unit–level performance varied significantly. Disneyland Park generated approximately **$11.7B in revenue at 27.2% operating margin**, while Resort Hotels operated at lower margins, reflecting structural differences in cost models and operational leverage.  
+
+These findings mirror real-world Operations Finance workflows, where teams focus on revenue growth sustainability, cost structure efficiency, and drivers of operating income changes.
+
+---
+
+## Dashboard Overview
+
+### 1) Executive Performance Overview
+
+The Executive Overview dashboard provides a high-level summary of financial and operational performance across Disney Experiences business units.
+
+**Key features:**
+- Dynamic KPI cards displaying Revenue, Revenue YoY %, Operating Margin %, Labor % of Revenue, Revenue per Guest, and Cost per Guest  
+- Trend visualizations tracking operating margin and revenue versus labor cost over time  
+- Business Unit and Fiscal Year slicers enabling performance comparison across segments  
+- Executive Insight callout summarizing financial performance in a concise finance narrative  
+
+![Executive Overview](screenshots/executive-overview.png)
+
+This page is designed to function like an executive review view: quickly surfacing segment performance, highlighting cost structure trends, and enabling drilldown by business unit.
+
+---
+
+### 2) Drivers Deep Dive (Variance Bridge Analysis)
+
+The Drivers Deep Dive page provides a financial bridge explaining the change in operating income year-over-year.
+
+Using a waterfall chart, operating income changes are decomposed into:
+- Revenue Change  
+- Labor Cost Change  
+- Other Operating Expense Change  
+- Net Operating Income Change  
+
+This analysis replicates core FP&A workflows used in corporate financial reporting to isolate profitability drivers.
+
+![Drivers Deep Dive](screenshots/drivers-deep-dive.png)
+
+The FY2025 vs FY2024 operating income bridge shows that operating income improved by approximately **+$516.6M**, driven by strong revenue growth but partially offset by labor cost pressure. This type of bridge helps finance teams explain *why* earnings changed, not just *what* changed.
+
+---
+
+## Business Unit Drilldown Examples
+
+### Disneyland Park – FY2025
+
+Disneyland Park generated approximately **$11.7B in revenue** with **2.4% YoY growth** and a **27.2% operating margin**, reflecting strong operational leverage and healthy profitability at the flagship park business unit.
+
+![Disneyland Park Drilldown](screenshots/disneyland-park-drilldown.png)
+
+This view highlights how the dashboard supports business-unit level analysis, allowing leadership to assess segment-specific margin trends, guest economics, and labor intensity.
+
+---
+
+### Downtown Disney District – FY2024 Contrast Case
+
+Downtown Disney District provides a useful contrast case. In FY2024, revenue declined by **−3.2% YoY**, yet the business still delivered a **38.1% operating margin**, suggesting strong cost control and resilience despite top-line softness.
+
+![Downtown Disney FY2024](screenshots/downtown-disney-fy2024.png)
+
+Including a contrasting case helps demonstrate that the dashboard is not limited to one growth story; it can also surface examples of margin resilience, cost discipline, and structural profitability differences across business units.
 
 ---
 
@@ -51,66 +123,11 @@ Used for time intelligence, trend analysis, and YoY comparisons.
   - Disneyland Park  
   - Disney California Adventure  
   - Disneyland Resort Hotels  
+  - Downtown Disney District  
 
 Used to analyze performance across operational segments.
 
 This structure supports advanced measures such as YoY variance analysis, rolling averages, and dynamic executive reporting.
-
----
-
-## Executive Summary
-
-Analysis of Disney Experiences performance reveals several important financial and operational trends:
-
-- Total segment revenue reached approximately **$24.7B**, with operating margin stabilizing at **26.6%**, indicating strong overall profitability despite cost pressures.  
-- Operating income increased by approximately **+$516.6M year-over-year**, driven primarily by revenue expansion of approximately **+$660M**, partially offset by labor cost increases of approximately **−$410M**.  
-- Labor costs represented approximately **26.0% of revenue**, highlighting labor efficiency as a critical driver of profitability across business units.  
-- Revenue per guest averaged approximately **$750.79**, while cost per guest averaged approximately **$467.41**, reinforcing the importance of operational efficiency and pricing optimization.  
-- Business unit–level performance varied significantly. Disneyland Park generated approximately **$11.7B in revenue at 27.2% operating margin**, while Resort Hotels operated at lower margins, reflecting structural differences in cost models and operational leverage.  
-
-These findings mirror real-world Operations Finance workflows, where teams focus on revenue growth sustainability, cost structure efficiency, and drivers of operating income changes.
-
----
-
-## Dashboard Overview
-
-### 1) Executive Performance Overview
-
-The Executive Overview dashboard provides a high-level summary of financial and operational performance.
-
-**Key features:**
-- Dynamic KPI cards displaying:
-  - Revenue  
-  - Revenue YoY %  
-  - Operating Margin %  
-  - Labor % of Revenue  
-  - Revenue per Guest  
-  - Cost per Guest  
-- Trend visualizations tracking operating margin and revenue efficiency over time  
-- Business Unit and Fiscal Year slicers enabling performance comparison across segments  
-- Executive Insight callout summarizing financial performance in a finance narrative  
-
-> 📌 **Screenshot placeholder:**  
-> Add an image named `screenshots/executive-overview.png` and insert:  
-> `![Executive Overview](screenshots/executive-overview.png)`
-
----
-
-### 2) Drivers Deep Dive (Variance Bridge Analysis)
-
-The Drivers Deep Dive page provides a financial bridge explaining the change in operating income year-over-year.
-
-Using a waterfall chart, operating income changes are decomposed into:
-- Revenue Change (positive contribution)  
-- Labor Cost Change (negative contribution)  
-- Other Operating Expense Change  
-- Net Operating Income Change  
-
-This analysis replicates core FP&A workflows used in corporate financial reporting to isolate profitability drivers.
-
-> 📌 **Screenshot placeholder:**  
-> Add an image named `screenshots/drivers-deep-dive.png` and insert:  
-> `![Drivers Deep Dive](screenshots/drivers-deep-dive.png)`
 
 ---
 
@@ -125,8 +142,8 @@ Labor costs increased by approximately **−$410M**, partially offsetting revenu
 ### Strong Operational Leverage at Core Park Operations
 Disneyland Park generated approximately **27.2% operating margin**, reflecting higher operational leverage and fixed-cost efficiency. Resort Hotels exhibited lower margins, consistent with a different cost structure.
 
-### Revenue Per Guest Stability Supporting Margin Consistency
-Revenue per guest remained stable at approximately **$750.79**, while cost per guest remained controlled relative to revenue, supporting margin resilience.
+### Margin Resilience in Lower-Revenue Units
+Downtown Disney District maintained margins near **38–40%** despite comparatively modest revenue levels, illustrating how cost structure and operating discipline can preserve profitability even when top-line growth is limited.
 
 ---
 
@@ -135,24 +152,26 @@ Revenue per guest remained stable at approximately **$750.79**, while cost per g
 Based on the analysis, several Operations Finance actions emerge:
 
 - Monitor labor cost growth, as labor cost increases remain the primary offsetting factor against revenue-driven margin expansion.  
-- Improve cost per guest through operational efficiency initiatives, particularly within lower-margin business units (e.g., Resort Hotels).  
+- Improve cost per guest through operational efficiency initiatives, particularly within lower-margin business units such as Resort Hotels.  
 - Track business unit profitability variance to identify best practices and opportunities for efficiency improvement.  
-- Continue using driver-based reporting to isolate operating income changes and support executive decisions.  
+- Continue using driver-based reporting to isolate operating income changes and support executive decision-making.  
 
 ---
 
 ## Technical Implementation
 
 This dashboard was developed using:
-- Power BI Desktop  
-- Star schema data modeling  
-- Advanced DAX measures including:
+- **Power BI Desktop**
+- **Star schema data modeling**
+- **Advanced DAX measures**, including:
   - YoY revenue and operating income changes  
   - Operating margin and labor ratio calculations  
   - Financial bridge logic using `SWITCH()` measures  
   - Time intelligence functions  
   - Dynamic executive titles and insight measures  
-  - Rolling averages (e.g., 4-week moving average)  
+  - Rolling averages (4-week moving average)
+
+The project was designed to simulate internal FP&A-style reporting by combining executive-level KPI presentation with dynamic drilldown and driver-based profitability analysis.
 
 ---
 
@@ -164,6 +183,8 @@ This dashboard was developed using:
 
 ---
 
-- GitHub: *https://github.com/Andrew-Pasten*    
-- LinkedIn: *https://www.linkedin.com/in/andrewpastencpp/*
-- Portfolio: *https://andrew-pasten.github.io/Portfolio.io/index.html*  
+## Links
+
+- GitHub: [Andrew-Pasten](https://github.com/Andrew-Pasten)  
+- LinkedIn: [andrewpastencpp](https://www.linkedin.com/in/andrewpastencpp/)  
+- Portfolio: [andrew-pasten.github.io](https://andrew-pasten.github.io/Portfolio.io/index.html)
